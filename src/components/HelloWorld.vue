@@ -54,7 +54,8 @@ export default {
     fetchData: async function () {
       let headers = {
         'accept': 'application/json',
-        'Authorization': 'Bearer OxBONbQaVU6zYG3G0QeN'
+        // please add bearer token here
+        'Authorization': 'Bearer *********'
       }
       this.api_data = await axios.get(
         'https://zeigsuns.bredex.de', { headers }
